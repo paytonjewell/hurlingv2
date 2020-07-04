@@ -96,6 +96,10 @@ nav {
 .container {
     height: 100vh;
     background-color: #06022b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
 }
 main {
@@ -105,9 +109,8 @@ main {
 }
 
 .card {
-    margin: 0 auto;
-    height: 90vh;
-    width: 90vw;
+    height: 85vh;
+    width: 80vw;
     background: linear-gradient(135deg, #ffcb3bc2 0%, #dd5330cb 100%), url(./img/hurling6.jpg) center no-repeat;
     background-size: cover;
     border-radius: 1rem;
@@ -138,7 +141,7 @@ main {
     text-align: center;
     margin-top: 1rem;
     color: #fff;
-
+    
 }
 
 .logo {
@@ -150,9 +153,8 @@ main {
 }
 
 .ball {
-    width: 20%;
+    width: 15%;
     position: absolute;
-    bottom: -4rem;
     opacity: 0.95;
     filter: drop-shadow(0 0 1rem rgba(0,0,0,0.5));
     cursor: pointer;
@@ -163,24 +165,24 @@ main {
 }
 
 @media screen and (min-width: 320px) {
-   .ball {
-       bottom: -2rem;
-   }
-
-
-.close {
-    top: 1.5rem;
-    left: 2rem;
-}
-
-.navitem {
-    margin: 1rem 0;
-}
-
-.nav-link {
-    font-size: 2rem;
-    padding: .8rem 1.8rem;
-}
+    .ball {
+        bottom: -5%;
+    }
+    
+    
+    .close {
+        top: 1.5rem;
+        left: 2rem;
+    }
+    
+    .navitem {
+        margin: 1rem 0;
+    }
+    
+    .nav-link {
+        font-size: 2rem;
+        padding: .8rem 1.8rem;
+    }
 }
 
 @media screen and (min-width: 355px) {
@@ -193,16 +195,16 @@ main {
     .card {
         width: 80vw;
     }
-
+    
     .ball {
         width: 15%;
         bottom: -4rem;
     }
-
+    
     .nav-link {
         font-size: 5rem;
     }
-
+    
     .nav-link i {
         font-size: 5rem;
     }
@@ -217,25 +219,25 @@ main {
         right: -15%;
         filter: contrast(85%);
     }
-
+    
     .card {
         overflow: hidden;
     }
-
+    
     .ball {
         width: 8%;
         bottom: 25%;
         filter: drop-shadow(0 0 1rem rgba(255, 255, 255, 0.8))
     }
-
+    
     .nav-link {
         font-size: 3rem;
     }
-
+    
     .nav-link i {
         font-size: 3rem;
     }
-
+    
     .logo {
         width: 15%;
     }
