@@ -5,28 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hurling 2.0</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
 </head>
 <body>
     <div class="container">
+        <nav>
+            <ul class="nav-list">
+                <div class="menu-icons close">
+                    <i class="icon ion-md-close">
+                    </i>
+                </div>
+                <div class="navbrand">
+                    <a href="index.html">
+                        <img src="./img/logo.png" alt="">
+                    </a>
+                </div>
+                <li class="navitem">
+                    <a href="#" class="nav-link" current>Home</a>
+                </li>
+                <li class="navitem">
+                    <a href="#" class="nav-link" >Hurling</a>
+                </li>
+                <li class="navitem">
+                    <a href="#" class="nav-link" >Galleries</a>
+                </li>
+                <li class="navitem">
+                    <a href="#" class="nav-link" >Join Us</a>
+                </li>
+                <div class="socials">
+                    <li class="navitem">
+                        <a href="#" class="nav-link" ><i class="icon ion-md-mail"></i> </a>
+                    </li>
+                    <li class="navitem">
+                        <a href="#" class="nav-link" ><i class="icon ion-logo-facebook"></i> </a>
+                    </li>
+                    <li class="navitem">
+                        <a href="#" class="nav-link" ><i class="icon ion-logo-instagram"></i> </a>
+                    </li>
+                </div>
+            </ul>
+        </nav>
+        
         <main>
-            <div class="menu">
-                <div class="toggleoff"></div>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Hurling</a></li>
-                    <li><a href="#">Galleries</a></li>
-                    <li><a href="#">Join Us</a></li>
-                    <li><a href="#">Calendar</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
             <div class="card">
+
                 <h1>Fox River Hurling Club</h1>
+                <h3>The Fastest Game On Grass</h3>
                 <img src="https://www.foxriverhurlingclub.com/main-design/drive-images/frhc-logo-half.png" alt="" class="logo">
-                <img src="./img/ball.png" alt="" class="ball">
-                <div class="toggle"></div>
+                <img src="./img/ball.png" alt="" class="ball open">
+                <img src="./img/hurling3-removebg-preview.png" alt="" class="ty">
             </div>
         </main>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
